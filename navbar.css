@@ -1,0 +1,61 @@
+nav {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 20px;
+  height: 50px;
+  align-items: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.company-logo {
+  color: #fff;
+}
+
+.navbar-menu {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  gap: 30px;
+}
+
+.navbar-menu a {
+  cursor: pointer;
+  padding: 5px;
+  font-family: "Roboto", sans-serif;
+}
+
+.navbar-menu a:hover {
+  background-color: red;
+}
+.blog-menu {
+  position: relative;
+}
+
+.blog-dropdown {
+  display: none;
+  position: absolute;
+  background-color: black;
+  padding: 5px;
+}
+.blog-dropdown-menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown-icon {
+  margin-left: 4px;
+}
+
+.blog-menu:hover .blog-dropdown {
+  display: block;
+}
+
+a {
+  text-decoration: inherit;
+  color: inherit;
+}
